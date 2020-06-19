@@ -1,0 +1,15 @@
+
+.container {
+  background-color: black;
+  background-size: cover;
+  height: 70vh;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: black;
+}
