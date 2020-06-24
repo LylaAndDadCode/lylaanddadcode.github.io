@@ -6,10 +6,49 @@
   
 }
 
-h1 {
+p {
   text-align: center;
+ 
 }
 
-a {
+p a {
   color: black;
 }
+
+p a:hover {
+  color: pink;
+  transition: all 10s;
+}
+
+.nav a:hover {
+  color: yellow;
+  transition: all .5s;
+}
+
+.nav {
+  display: block;
+  xmax-height: 0px; /* set the sub menu height to `0` */
+  transition:all .75s ease-in-out;
+  
+}
+
+body {
+ 
+}
+
+.nav a {
+  color: white;
+  background-color: orange;
+  ztext-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  margin-top: 5px;
+}
+
+
+#current-view {
+  color: yellow;
+}
+
